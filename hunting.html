@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Matter: An Interactive Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50a3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            color: #ffffff;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            display: inline;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            font-weight: bold;
+            padding: 0;
+            border: 0;
+            background: none;
+            color: #eeff00;
+            padding: 0 20px 0 20px;
+        }
+        header a:hover {
+            color: white;
+            font-weight: bold;
+        }
+        .main {
+            padding: 30px 0;
+        }
+        .main h2 {
+            color: #333;
+        }
+        .main p {
+            font-size: 18px;
+            line-height: 1.6em;
+        }
+        footer {
+            padding: 20px 0;
+            background-color: #eaeaea;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Dark Matter</span>: An Interactive Journey</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="observations.html">Observations</a></li>
+                    <li><a href="hunting.html">Hunting</a></li>
+                    <li><a href="cosmic_role.html">Cosmic Role</a></li>
+                    <li><a href="conclusion.html">Conclusion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+         <div class="container">
+            <h2>Observing the Invisible</h2>
+            <p>One of the first evidences of dark matter came from the study of the Coma Cluster by Fritz Zwicky in the 1930s. He observed that the gravitational pull calculated from the visible mass of the galaxies was insufficient to prevent them from escaping the cluster. This discrepancy suggested the presence of unseen mass, later termed as "Dark Matter".</p>
+            
+            <h3>Galaxy Rotation Curves</h3>
+            <p>Another key evidence for dark matter comes from the rotation curves of galaxies. The outer regions of galaxies rotate at similar speeds to their inner regions, defying the expectations of Newtonian mechanics if only visible matter were present. This suggests that a significant amount of unseen mass must be influencing the gravitational forces at work.</p>
+            
+            <h3>Gravitational Lensing</h3>
+            <p>Dark matter can also be detected through its gravitational effects on light, a phenomenon known as gravitational lensing. Massive dark matter structures can bend the light from distant galaxies, causing distorted or multiple images of the same galaxy. This effect has been observed in many instances and serves as a powerful tool for mapping dark matter in the universe.</p>
+            <button onclick="location.href='hunting.html';">Nexty</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Dark Matter Interactive</p>
+    </footer>
+
+</body>
+</html>
